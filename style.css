@@ -11,8 +11,8 @@
 ;
     font-size: 40px;
     border: solid 7px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
     width: 1000px;
     height: 300px;
     grid-column-gap: 0px;
@@ -23,6 +23,7 @@
    grid-area: 1 / 1 / 2 / 4;
     text-align: center;
     padding-top: 60px;
+     border-top-left-radius: 20px;
 }
 .item:nth-child(2){
     background-color: var(--two-color);
@@ -51,4 +52,5 @@
     background-color:var(--five-color);
     text-align: center;
     padding-top: 50px;
+      border-top-right-radius: 20px;
 }
